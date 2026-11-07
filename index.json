@@ -33,6 +33,34 @@
           "licensesUrl": "https://github.com/Yakigura/QvPalette/blob/main/LICENSE",
           "url": "https://github.com/Yakigura/QvPalette/releases/download/0.1.0-beta.6/com.yakigura.qvpalette-0.1.0-beta.6.zip",
           "zipSHA256": "30f0fc16e0f845f29e08df344839becd4056c20eb2b22a82e43f5c98183b5de1"
+        },
+        "0.1.0-beta.7": {
+          "name": "com.yakigura.qvpalette",
+          "displayName": "QvPalette",
+          "version": "0.1.0-beta.7",
+          "unity": "2022.3",
+          "description": "QvPen の非公式拡張。ペン 1 本で最大 4096 のインクを使用できるQvPen拡張ツール",
+          "author": {
+            "name": "やきたてぐらふてぃ",
+            "url": "https://github.com/Yakigura"
+          },
+          "vpmDependencies": {
+            "com.vrchat.worlds": "^3.5.0",
+            "com.vrchat.base": "^3.5.0",
+            "net.ureishi.qvpen": ">=3.3.15 <3.4.0",
+            "com.yakigura.qvinkpreview": "^0.1.0-beta.1"
+          },
+          "keywords": [
+            "VRChat",
+            "UdonSharp",
+            "QvPen",
+            "Palette"
+          ],
+          "documentationUrl": "https://github.com/Yakigura/QvPalette#readme",
+          "changelogUrl": "https://github.com/Yakigura/QvPalette/blob/main/CHANGELOG.md",
+          "licensesUrl": "https://github.com/Yakigura/QvPalette/blob/main/LICENSE",
+          "url": "https://github.com/Yakigura/QvPalette/releases/download/0.1.0-beta.7/com.yakigura.qvpalette-0.1.0-beta.7.zip",
+          "zipSHA256": "feb03a220be53bda36d7e097655c7ae117faaad1d866c26c942590318903aef4"
         }
       }
     },
@@ -64,6 +92,33 @@
             "Preview"
           ],
           "zipSHA256": "6e87a8c973e5734c05eb8b9eeebbc425d3cf0d4f61060bcb1bc8b31d320c4fe6"
+        },
+        "0.1.0-beta.7": {
+          "name": "com.yakigura.qvinkpreview",
+          "displayName": "QvInkPreview",
+          "version": "0.1.0-beta.7",
+          "unity": "2022.3",
+          "description": "QvPen の各ペンの後ろに、現在のインクと同じマテリアル・色・太さの短い線を表示する VPM パッケージ。",
+          "author": {
+            "name": "やきたてぐらふてぃ",
+            "url": "https://github.com/Yakigura"
+          },
+          "vpmDependencies": {
+            "com.vrchat.worlds": "^3.5.0",
+            "com.vrchat.base": "^3.5.0",
+            "net.ureishi.qvpen": ">=3.3.0"
+          },
+          "documentationUrl": "https://github.com/Yakigura/QvInkPreview#readme",
+          "changelogUrl": "https://github.com/Yakigura/QvInkPreview/blob/main/CHANGELOG.md",
+          "licensesUrl": "https://github.com/Yakigura/QvInkPreview/blob/main/LICENSE",
+          "url": "https://github.com/Yakigura/QvInkPreview/releases/download/0.1.0-beta.7/com.yakigura.qvinkpreview-0.1.0-beta.7.zip",
+          "keywords": [
+            "VRChat",
+            "UdonSharp",
+            "QvPen",
+            "Preview"
+          ],
+          "zipSHA256": "cad44b34f855e473bbcabbafeaaef7ded7fe9af735ab80b612b4192e450b0b0e"
         }
       }
     }
