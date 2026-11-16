@@ -117,6 +117,34 @@
           "licensesUrl": "https://github.com/Yakigura/QvPalette/blob/main/LICENSE",
           "url": "https://github.com/Yakigura/QvPalette/releases/download/1.0.0/com.yakigura.qvpalette-1.0.0.zip",
           "zipSHA256": "050ea557f330f4ee292f52cb24cae41cc588ca49b44e5ad5da045e8ee851cbbf"
+        },
+        "1.0.1": {
+          "name": "com.yakigura.qvpalette",
+          "displayName": "QvPalette",
+          "version": "1.0.1",
+          "unity": "2022.3",
+          "description": "QvPen の非公式拡張。ペン 1 本で最大 4096 のインクを使用できるQvPen拡張ツール / Unofficial QvPen extension: use up to 4096 inks with one pen / QvPen 비공식 확장: 펜 1개로 최대 4096개의 잉크 사용",
+          "author": {
+            "name": "やきたてぐらふてぃ",
+            "url": "https://github.com/Yakigura"
+          },
+          "vpmDependencies": {
+            "com.vrchat.worlds": "^3.5.0",
+            "com.vrchat.base": "^3.5.0",
+            "net.ureishi.qvpen": ">=3.3.15 <3.4.0",
+            "com.yakigura.qvinkpreview": "^1.0.0"
+          },
+          "keywords": [
+            "VRChat",
+            "UdonSharp",
+            "QvPen",
+            "Palette"
+          ],
+          "documentationUrl": "https://github.com/Yakigura/QvPalette#readme",
+          "changelogUrl": "https://github.com/Yakigura/QvPalette/blob/main/CHANGELOG.md",
+          "licensesUrl": "https://github.com/Yakigura/QvPalette/blob/main/LICENSE",
+          "url": "https://github.com/Yakigura/QvPalette/releases/download/1.0.1/com.yakigura.qvpalette-1.0.1.zip",
+          "zipSHA256": "1a8879094c7ea39a88e464b016ebd707ce842eab55fcc31260558306dcd0089e"
         }
       }
     },
@@ -228,7 +256,7 @@
             "QvPen",
             "Preview"
           ],
-          "zipSHA256": "f626b2f9d7a731e5415dea8d68ed1d4f56143d92d8e99160076a919ee483fb80"
+          "zipSHA256": "e54824d8dc873ad872134db36020c066b9b210b34ce92faa3e04300b4317f01c"
         }
       }
     }

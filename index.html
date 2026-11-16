@@ -2,7 +2,7 @@
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>QvPalette VPM</title>
 <style>
-body { font-family: "Yu Gothic UI", Meiryo, sans-serif; max-width: 760px; margin: 32px auto; padding: 0 16px; line-height: 1.7; color: #1d2330; }
+body { font-family: "Yu Gothic UI", Meiryo, "Malgun Gothic", sans-serif; max-width: 760px; margin: 32px auto; padding: 0 16px; line-height: 1.7; color: #1d2330; }
 h1 { margin-bottom: 4px; } h2 { margin-top: 28px; border-left: 6px solid #ff8a00; padding-left: 8px; font-size: 1.15em; }
 .btn { display: inline-block; background: #ff8a00; color: #fff; padding: 10px 22px; border-radius: 6px; text-decoration: none; font-weight: bold; }
 code { background: #eef1f7; padding: 2px 6px; border-radius: 4px; word-break: break-all; }
@@ -10,18 +10,67 @@ code { background: #eef1f7; padding: 2px 6px; border-radius: 4px; word-break: br
 .card h3 { margin: 10px 0 0 0; } .ver { font-weight: normal; color: #566077; font-size: .85em; }
 .badge { background: #e8f0ff; color: #2a52d8; font-size: .75em; padding: 1px 8px; border-radius: 10px; font-weight: normal; }
 .links { font-size: .9em; } .note { background: #fff6e6; border: 1px solid #ffcf80; border-radius: 6px; padding: 8px 12px; }
+.langs { margin: 8px 0 4px 0; } .langs button { border: 1px solid #c9cfdc; background: #fff; border-radius: 14px; padding: 2px 14px; margin-right: 6px; cursor: pointer; font: inherit; }
+.langs button.on { background: #1d2330; color: #fff; border-color: #1d2330; }
 </style></head>
 <body>
 <h1>QvPalette VPM</h1>
+<div class="langs"><button data-pick="ja">日本語</button><button data-pick="en">English</button><button data-pick="ko">한국어</button></div>
+<div class="lang" data-lang="ja" lang="ja">
 <p>VRChat Creator Companion（VCC）用の、パッケージ一覧です。</p>
 <p><a class="btn" href="vcc://vpm/addRepo?url=https://yakigura.github.io/vpm-qvpalette/index.json">VCC に追加する</a></p>
 <p>ボタンが効かないときは、VCC の <code>Settings &gt; Packages &gt; Add Repository</code> に、次の URL を貼ってください。</p>
 <p><code>https://yakigura.github.io/vpm-qvpalette/index.json</code></p>
 <p class="note">一覧を追加しただけでは、パッケージは入りません。プロジェクトの <code>Manage Project</code> で、使いたいものを選んで追加します。</p>
 <h2>パッケージ</h2>
-<div class="card"><h3>QvPalette <span class="ver">1.0.0</span></h3><p>QvPen の非公式拡張。ペン 1 本で最大 4096 のインクを使用できるQvPen拡張ツール</p><p class="links"><a href="https://github.com/Yakigura/QvPalette#readme">説明</a> ・ <a href="https://github.com/Yakigura/QvPalette/blob/main/CHANGELOG.md">更新履歴</a> ・ <a href="https://github.com/Yakigura/QvPalette/blob/main/LICENSE">利用規約</a></p></div>
+<div class="card"><h3>QvPalette <span class="ver">1.0.1</span></h3><p>QvPen の非公式拡張。ペン 1 本で最大 4096 のインクを使用できる QvPen 拡張ツール。</p><p class="links"><a href="https://github.com/Yakigura/QvPalette#readme">説明</a> ・ <a href="https://github.com/Yakigura/QvPalette/blob/main/CHANGELOG.md">更新履歴</a> ・ <a href="https://github.com/Yakigura/QvPalette/blob/main/LICENSE">利用規約</a></p></div>
 <h2>自動で入る部品</h2><p>次のものは、上のパッケージと一緒に入ります。単独で入れる必要はありません。</p><ul><li><b>QvInkPreview</b> 1.0.0 — QvPen の各ペンの後ろに、現在のインクと同じマテリアル・色・太さの短い線を表示する VPM パッケージ。</li></ul>
 <h2>ご注意</h2>
 <p>QvPalette には、QvPen（net.ureishi.qvpen 3.3.15 以上 3.4.0 未満）が必要です。QvPen は、この一覧にはありません。先に導入してください。</p>
 <p>新しい版が出ると、VCC の <code>Manage Project</code> に、更新できる、と出ます。以前の版も、VCC のバージョン選択から選べます。</p>
+</div>
+<div class="lang" data-lang="en" lang="en">
+<p>A package listing for VRChat Creator Companion (VCC).</p>
+<p><a class="btn" href="vcc://vpm/addRepo?url=https://yakigura.github.io/vpm-qvpalette/index.json">Add to VCC</a></p>
+<p>If the button does not work, paste this URL into <code>Settings &gt; Packages &gt; Add Repository</code> in VCC.</p>
+<p><code>https://yakigura.github.io/vpm-qvpalette/index.json</code></p>
+<p class="note">Adding this listing does not install anything. In your project's <code>Manage Project</code>, choose the packages you want and add them.</p>
+<h2>Packages</h2>
+<div class="card"><h3>QvPalette <span class="ver">1.0.1</span></h3><p>Unofficial QvPen extension. Use up to 4096 inks with a single pen.</p><p class="links"><a href="https://github.com/Yakigura/QvPalette#readme">Documentation</a> ・ <a href="https://github.com/Yakigura/QvPalette/blob/main/CHANGELOG.md">Changelog</a> ・ <a href="https://github.com/Yakigura/QvPalette/blob/main/LICENSE">Terms of use</a></p></div>
+<h2>Installed automatically</h2><p>These come along with the packages above. You do not need to install them separately.</p><ul><li><b>QvInkPreview</b> 1.0.0 — Shows a short line behind each QvPen pen, with the same material, color and width as the current ink.</li></ul>
+<h2>Notes</h2>
+<p>QvPalette requires QvPen (net.ureishi.qvpen 3.3.15 or later, below 3.4.0). QvPen is not in this listing; install it first.</p>
+<p>When a new version is released, VCC shows an update in <code>Manage Project</code>. Earlier versions can still be chosen from the version selector in VCC.</p>
+</div>
+<div class="lang" data-lang="ko" lang="ko">
+<p>VRChat Creator Companion(VCC)용 패키지 목록입니다.</p>
+<p><a class="btn" href="vcc://vpm/addRepo?url=https://yakigura.github.io/vpm-qvpalette/index.json">VCC에 추가</a></p>
+<p>버튼이 동작하지 않으면 VCC의 <code>Settings &gt; Packages &gt; Add Repository</code>에 다음 URL을 붙여넣어 주세요.</p>
+<p><code>https://yakigura.github.io/vpm-qvpalette/index.json</code></p>
+<p class="note">목록을 추가하는 것만으로는 패키지가 설치되지 않습니다. 프로젝트의 <code>Manage Project</code>에서 사용할 패키지를 골라 추가해 주세요.</p>
+<h2>패키지</h2>
+<div class="card"><h3>QvPalette <span class="ver">1.0.1</span></h3><p>QvPen 비공식 확장. 펜 1개로 최대 4096개의 잉크를 사용할 수 있는 QvPen 확장 도구.</p><p class="links"><a href="https://github.com/Yakigura/QvPalette#readme">설명</a> ・ <a href="https://github.com/Yakigura/QvPalette/blob/main/CHANGELOG.md">변경 이력</a> ・ <a href="https://github.com/Yakigura/QvPalette/blob/main/LICENSE">이용 약관</a></p></div>
+<h2>자동으로 설치되는 부품</h2><p>다음 항목은 위의 패키지와 함께 설치됩니다. 따로 설치할 필요가 없습니다.</p><ul><li><b>QvInkPreview</b> 1.0.0 — QvPen의 각 펜 뒤에 현재 잉크와 같은 머티리얼·색상·두께의 짧은 선을 표시하는 VPM 패키지.</li></ul>
+<h2>안내</h2>
+<p>QvPalette에는 QvPen(net.ureishi.qvpen 3.3.15 이상 3.4.0 미만)이 필요합니다. QvPen은 이 목록에 없으니 먼저 설치해 주세요.</p>
+<p>새 버전이 나오면 VCC의 <code>Manage Project</code>에 업데이트가 표시됩니다. 이전 버전도 VCC의 버전 선택에서 고를 수 있습니다.</p>
+</div>
+<script>
+(function () {
+  var langs = ["ja", "en", "ko"];
+  var hash = (location.hash || "").replace("#", "");
+  var browser = (navigator.language || "en").slice(0, 2);
+  var current = langs.indexOf(hash) >= 0 ? hash : (browser === "ja" || browser === "ko" ? browser : "en");
+  function show(lang) {
+    var blocks = document.querySelectorAll("[data-lang]");
+    for (var i = 0; i < blocks.length; i++) blocks[i].style.display = blocks[i].getAttribute("data-lang") === lang ? "" : "none";
+    var buttons = document.querySelectorAll("[data-pick]");
+    for (var j = 0; j < buttons.length; j++) buttons[j].className = buttons[j].getAttribute("data-pick") === lang ? "on" : "";
+    document.documentElement.lang = lang;
+  }
+  var picks = document.querySelectorAll("[data-pick]");
+  for (var k = 0; k < picks.length; k++) picks[k].addEventListener("click", function () { show(this.getAttribute("data-pick")); });
+  show(current);
+})();
+</script>
 </body></html>
